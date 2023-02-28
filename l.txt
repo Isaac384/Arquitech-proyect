@@ -1,0 +1,12 @@
+DELIMITER $$
+CREATE PROCEDURE sp_cre_isaacbd(in mensaje Varchar(50))
+BEGIN
+insert into alumno(mensaje) values (msg)
+END$$
+
+DELIMITER $$
+CREATE PROCEDURE sp_upd_isaacbd(in mensaje Varchar(50))
+BEGIN
+update alumno SET msg = mensaje where id = num
+END$$
+
